@@ -1,4 +1,4 @@
-package dev.wakandaacademy.produdoro.projeto.domain;
+package dev.wakandaacademy.produdoro.area.domain;
 
 import java.util.UUID;
 
@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @Document(collation = "Projeto")
 
-public class Projeto {
+public class Area {
 	@Id
 	private UUID idProjeto;
 	private String nome;
